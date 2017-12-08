@@ -1,0 +1,36 @@
+*{
+	box-sizing: initial;
+}
+header{
+	font-family: sans-serif;
+	font: 700 15px 'Open Sans';
+}
+#header .navbar-light .navbar-nav .active>.nav-link{
+	color: #f76d2b;
+	border-bottom: 1px solid #f76d3b;
+	display: inline-block;
+	box-sizing: initial;
+}
+.custom-ddm{
+	box-sizing: content-box;
+	
+}
+.footer-list__links a {
+    font-family: 'Work Sans',Arial,sans-serif;
+    font-size: .875em;
+    line-height: 1.875em;
+    letter-spacing: .3px;
+    color: #242d39;
+    white-space: nowrap;
+}
+
+.site-footer__bottom{
+	font-size: 13px;
+}
+@media screen and (max-width: 992px){
+	#header .container{
+	min-width: 100%;
+	padding: 0;
+	margin: 0;
+	}
+}
