@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background: #17a2b8;
+	margin-bottom: 10px;
+}
+#banner-mid{
+	position: relative;
+}
+.text-banner{
+	position: absolute;
+	bottom: 0px;
+	left: 9px;
+	padding: 0 19px;
+}
+.text-banner-t{
+	background: #555;
+	padding: 5px 0;
+}
+.text-banner-t span{
+	padding: 0px 10px;
+	color: white;
+}
+.text-banner-bt{
+	background: #444;
+	padding: 13px 0;
+}
+.price{
+	background: #bb0000;
+	padding: 15px;
+	color: white;
+}
+.product-name a{
+	color: white;
+	text-decoration: none;
+}
+.product h3{
+	border-bottom: 1px solid #ff9600;
+}
+.product h3 a{
+	color: #fd7e14;
+	text-decoration: none;
+	font-size: 24px;
+}
+.product-item img{
+	width: 200px;
+	height: 150px;
+	margin-left: 20px;
+}
+.product-item h5{
+	text-align: center;
+}
+@media (max-width: 768px){
+	.product-item img{
+	width: 150px;
+	height: 100px;
+	padding: 10px
+	}
+	#banner-mid img{
+		width: 670px;
+		height: 325px;
+	}
+	.text-banner{
+	bottom: 0px;
+	left: 5px;
+	padding-right:px;
+}
+	
+}
+@media (max-width: 320px){
+	.product-item img{
+	width: 150px;
+	height: 100px;
+	margin-left: 70px;
+	}
+	#banner-mid img{
+		width: 310px;
+		height: 250px;
+	}
+	#banner-mid{
+		padding-left: 0px;
+	}
+	.text-banner{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	}
+	.text-banner-t{
+	
+	padding: 0px 0;
+	}
+	.price{
+		padding: 1px;
+	}
+	.text-banner-bt{
+	
+	padding: 0px 0;
+	}
+
+}
+
+footer{
+	background: #17a2b8;
+	clear: bottom;
+}
+/*#about h4, #hotline h4{
+	color: #fff;
+}*/
+#icon-ft{
+	line-height: 100px;
+}

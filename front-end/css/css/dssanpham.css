@@ -1,0 +1,50 @@
+header,footer {
+	background: #17a2b8;
+}
+
+.pading{
+	padding: 0;
+}
+#img-banner img{
+	height: 170px;
+	width: 1000px;
+}
+.mark{
+	height: 100%;
+    width: 100%;
+    background: #333;
+    opacity: .3;
+}
+.more{
+	top: 15%;
+}
+.search{
+	bottom: 10px;
+}
+@media (max-width: 576px){
+	.container{
+		padding: 0;
+	}
+}
+
+@media (min-width: 768px){
+	.container{
+		min-width: 768px;
+	}
+	#img-banner img{
+	height: 300px;
+	width: 1000px;
+	}
+
+	
+
+}
+@media (min-width: 960px){
+	
+	#img-banner img{
+	height: 350px;
+	width: 1500px;
+	}
+
+	
+}

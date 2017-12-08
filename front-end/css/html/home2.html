@@ -4,17 +4,17 @@
 
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<link rel="icon" href="../images/logo.png">
-	<title> CARVAN test</title>
+	<title> CARVAN</title>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	 <link rel="stylesheet" type="text/css" href="../css/home2.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<header id="header" >
+	<header id="header" class="container-fluid">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<nav class="navbar navbar-expand-lg bg-dark navbar-light fixed-top">
+					<div class="navbar navbar-expand-lg navbar-light">
 					  <a class="navbar-brand" href="#"><img src="http://ak2.imgaft.com/images/new_logo_GDTrans.png"/></a>
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,13 @@
 					    </ul>
 					  </div>
 
-					</nav>
+					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<main class="container-fluid">
-		<section id="section">
+	
+	<section id="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-7">
@@ -72,22 +72,23 @@
 				<div class="col-12 col-lg-5">
 
 						<div class="col-12">
-							<h3 id="banner-r" class="text-center"><a href="#"><img class=" img-fluid" src="http://thegioioto.com.vn/skin/frontend/nodo/default/images/ads-tim-xe.png"></a></h3>
+							<h3 id="banner-r" class="text-center"><a href="#"><img class=" img-thumbnail " src="http://thegioioto.com.vn/skin/frontend/nodo/default/images/ads-tim-xe.png"></a></h3>
 						</div>
-						<div class="col-12 ">
-							<div class="row col-12">
-								<div class=" col-9 mr-auto bg-info  border border-primary rounded ">
-									<h3 class="  text-center search text-light">Tìm Kiếm</h3>
+						<div class="container ">
+							<div class="row bg-success ">
+								<div class="col-12 pb-2">
+										<h5 class="text-center text-light" >Search Car</h5>
+											<div class="row">
+													<select class=" ml-4 col-6 col-md-6">
+													  <option value="volvo">Bentley</option>
+													  <option value="saab">Toyota</option>
+													  <option value="opel">Mazda</option>
+													  <option value="audi">Audi</option>
+													</select>
+														<input class="col-4" type="button" name="search-car" value="Search..">
+												
+											</div> 
 								</div>
-							</div>
-							<div class="row col-12 mr-auto">
-								<select class=" col-6">
-								  <option value="volvo" >Bentley</option>
-								  <option value="saab">Toyota</option>
-								  <option value="opel">Mazda</option>
-								  <option value="audi">Audi</option>
-								</select>
-								<input class="col-3" type="button" name="search-car" value="Search..">
 							</div>
 						</div>
 						<!--
@@ -198,8 +199,6 @@
 			</div>
 		</div>
 	</section>
-	</main>
-	
 
 	<footer >
 		<div class="container">
