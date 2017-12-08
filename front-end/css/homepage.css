@@ -1,9 +1,8 @@
-*{
-	box-sizing: initial;
-}
+
 header{
 	font-family: sans-serif;
 	font: 700 15px 'Open Sans';
+	box-sizing: initial;
 }
 #header .navbar-light .navbar-nav .active>.nav-link{
 	color: #f76d2b;
@@ -13,19 +12,122 @@ header{
 }
 .custom-ddm{
 	box-sizing: content-box;
-	
 }
-.footer-list__links a {
-    font-family: 'Work Sans',Arial,sans-serif;
-    font-size: .875em;
-    line-height: 1.875em;
-    letter-spacing: .3px;
-    color: #242d39;
-    white-space: nowrap;
+.carousel-inner{
+	position: relative;
+}
+.carousel-caption {
+    top: 35px;
+	bottom: 10px;
+	padding-top: 0;
+}
+.carousel-caption p{
+	font: 25px 'PT Sans',sans-serif;
+
+}
+.carousel-control-next,.carousel-control-prev{
+	width: 3%;
+}
+.bg-orange{
+	background-color: #f76d2b;
+	font-weight: 700;
+	padding: 3px 5px;
+}
+#search{
+	box-sizing: border-box;
+}
+.search{
+	padding: 0px 1px;
+}
+.text-search{
+	font-size: 14px;
+}
+.text-search-t{
+	font-size: 30px;
+	color: #f76d3b;
+}
+.text-search button {
+	background: #333;
+	color: #fff;
+	padding: 2px 11px;
+	border-radius: 20px;
+}
+.text-search button span {
+	border-radius: 100%;
+    padding: 6px 6px;
+    width: 35px;
+    margin-left: 20px;
+    background: #f76d2b; 
+    color: #fff;
+}
+.text-search button:hover{
+	background: #f76d2b;
+
+}
+.text-search button:hover  span{
+	background: white;
+	color: #333;
 }
 
+
+
+
+
+
+footer{
+	background: #333;
+}
+
+.footer-list__links a{
+	font-size: 20px;
+	 color: #f76d3b;
+}
+.footer-list__links span {
+    font-family: 'Work Sans',Arial,sans-serif;
+    font-size: 13px;
+    line-height: 0.875em;
+    letter-spacing: .3px;
+    white-space: nowrap;
+}
+.footer-icon{
+	font-size: 47px;
+
+}
 .site-footer__bottom{
 	font-size: 13px;
+}
+ .slider-banner{
+	background: #fff;
+	padding: 4px 8px;
+	color: #333;
+}
+ .slider-banner:hover {
+	background: #f76d3b;
+	color: white;
+}
+.slider-banner:hover .icon-slider{
+	background: white;
+	color: black;
+}
+ .icon-slider {
+    border-radius: 100%;
+    padding: 6px;
+    width: 35px;
+    margin-left: 20px;
+    background: #555; 
+    color: #fff;
+}
+@media screen and (max-width: 767px){
+	
+	.banner-t {
+    display: none;
+	}
+}	
+@media (min-width: 768px) and (max-width: 992px){
+	.text-help{
+	font-size: 16px;
+	text-decoration: none;
+}
 }
 @media screen and (max-width: 992px){
 	#header .container{
@@ -33,4 +135,9 @@ header{
 	padding: 0;
 	margin: 0;
 	}
+
+	.carousel-caption {
+    top: 5px;
+	bottom: 10px;
+	padding-top: 0;
 }
