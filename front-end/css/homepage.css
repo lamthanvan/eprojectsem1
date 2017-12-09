@@ -110,7 +110,7 @@ header{
 }
 .text-menu-product{
 	color: #868e96;
-	font-size: 17px;
+	font-size: 14px;
 	text-decoration: none;
 	padding-bottom: 5px;
 }
@@ -118,16 +118,52 @@ header{
 	color: red;
 	text-decoration: none;
 	border-bottom: 1px solid #868e96;
-	
+
 }
 .text-menu-product-active{
 	color: #f76d3b;
 	border-bottom: 1px solid #868e96;
 }
 
-/*border-bottom: 1px solid #868e96;*/
 
+.text-product{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: #444;
+}
 
+.text-product-price{
+	background: #f76d3b;
+	color: #fff;
+	padding: 5px;
+}
+.product-span a{
+	text-decoration: none;
+	color: #555;
+}
+.product-span a:hover{
+	text-decoration: none;
+	color: #f76d3b;
+}
+.text-slider a {
+	font-size: 19px;
+	border-bottom: 2px solid red; 
+	color: #333;
+}
+.text-product-bt{
+	border-bottom: 1px solid red;
+}
+.product-item{
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+.img-reponsive{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
 
 
 
@@ -199,6 +235,9 @@ footer{
 	.border-search{
 	border-right: none;
 	}
+	/*.product{
+		padding-right: 0px;
+	}*/
 }	
 @media (min-width: 768px) and (max-width: 992px){
 	.text-help{
