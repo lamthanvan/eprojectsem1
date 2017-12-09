@@ -3,6 +3,7 @@ header{
 	font-family: sans-serif;
 	font: 700 15px 'Open Sans';
 	box-sizing: initial;
+
 }
 #header .navbar-light .navbar-nav .active>.nav-link{
 	color: #f76d2b;
@@ -35,6 +36,7 @@ header{
 }
 #search{
 	box-sizing: border-box;
+	background: #eee;
 }
 .search{
 	padding: 0px 1px;
@@ -68,7 +70,62 @@ header{
 	background: white;
 	color: #333;
 }
+.border-search{
+	border-right: 1px solid #868e96;
+}
 
+
+
+#active-menu-l a {
+	color: #f76d3b;
+	border-left: 3px solid #f76d3b;
+}
+.text-menu-l{
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+}
+.text-menu-r{
+	border-left: 3px solid #eee;
+	margin: 17px 0;
+	line-height: 16px;
+	padding: 0 15px;
+	color: #555;
+	font: 700 13px 'Open Sans',sans-serif;
+	text-decoration: none;
+}
+
+.text-menu-r:hover{
+	color: #f76d3b;
+	border-left: 3px solid #f76d3b;
+}
+
+.text-menu-r{
+	border-left: 3px solid #eee;
+	margin: 17px 0;
+	line-height: 16px;
+	padding: 0 15px;
+	color: #555;
+	font: 700 13px 'Open Sans',sans-serif;
+	text-decoration: none;
+}
+.text-menu-product{
+	color: #868e96;
+	font-size: 17px;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+.text-menu-product:hover {
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px solid #868e96;
+	
+}
+.text-menu-product-active{
+	color: #f76d3b;
+	border-bottom: 1px solid #868e96;
+}
+
+/*border-bottom: 1px solid #868e96;*/
 
 
 
@@ -96,19 +153,19 @@ footer{
 .site-footer__bottom{
 	font-size: 13px;
 }
- .slider-banner{
+.slider-banner{
 	background: #fff;
 	padding: 4px 8px;
 	color: #333;
 }
- .slider-banner:hover {
+.slider-banner:hover {
 	background: #f76d3b;
 	color: white;
 }
 .slider-banner:hover .icon-slider{
 	background: white;
 	color: black;
-}
+}	
  .icon-slider {
     border-radius: 100%;
     padding: 6px;
@@ -117,17 +174,37 @@ footer{
     background: #555; 
     color: #fff;
 }
+
+
 @media screen and (max-width: 767px){
-	
+	#search-menu-l{
+			width: 100%;
+			padding-left:   0px;
+			
+	}
+	.footer-list__links{
+		text-align: center;
+	}
 	.banner-t {
     display: none;
+	}
+	.text-search1{
+	
+	padding-right: 0;
+	}
+	.text-search{
+	
+	padding-right: 0;
+	}
+	.border-search{
+	border-right: none;
 	}
 }	
 @media (min-width: 768px) and (max-width: 992px){
 	.text-help{
 	font-size: 16px;
 	text-decoration: none;
-}
+	}
 }
 @media screen and (max-width: 992px){
 	#header .container{
